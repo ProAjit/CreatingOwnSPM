@@ -1,9 +1,6 @@
-There is one brnach with name 'main'
+The main branch is named 'main'. 
+The 'FindMyIP' library has been named 'FindMyIPAjitS' in this project. 
 
-FindMyIP library I had to name as FindMyIPAjitS.
+'FindMyIPAjitS' library has been successfully implemented as a SPM package. 
+Also included screenshots of test coverage, error handling for reference. 
 
-In this Project FindMyIPAjitS is successfully impleted as SPM.
-I have also included screenshot for your references
-
-Here is the link of MainApp
-https://github.com/ProAjit/MainApp

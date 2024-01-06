@@ -13,6 +13,8 @@
 		B5420E6D2B49F5C6001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E6C2B49F5C6001FA361 /* FindMyIPAjitS */; };
 		B5420E702B49F673001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E6F2B49F673001FA361 /* FindMyIPAjitS */; };
 		B5420E722B49F6D5001FA361 /* ReferenceScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = B5420E712B49F6D5001FA361 /* ReferenceScreenshot.png */; };
+		B5420E742B49FC11001FA361 /* ErrorTestScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = B5420E732B49FC10001FA361 /* ErrorTestScreenshot.png */; };
+		B5420E762B49FC25001FA361 /* UnitTestCase93%.png in Resources */ = {isa = PBXBuildFile; fileRef = B5420E752B49FC25001FA361 /* UnitTestCase93%.png */; };
 		B5A137AF2B4996DE00C66DE5 /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A137AE2B4996DE00C66DE5 /* MainAppApp.swift */; };
 		B5A137B12B4996DE00C66DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A137B02B4996DE00C66DE5 /* ContentView.swift */; };
 		B5A137B32B4996E000C66DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A137B22B4996E000C66DE5 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		B5420E712B49F6D5001FA361 /* ReferenceScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReferenceScreenshot.png; sourceTree = "<group>"; };
+		B5420E732B49FC10001FA361 /* ErrorTestScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ErrorTestScreenshot.png; sourceTree = "<group>"; };
+		B5420E752B49FC25001FA361 /* UnitTestCase93%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UnitTestCase93%.png"; sourceTree = "<group>"; };
 		B5A137AB2B4996DE00C66DE5 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A137AE2B4996DE00C66DE5 /* MainAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppApp.swift; sourceTree = "<group>"; };
 		B5A137B02B4996DE00C66DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				B5420E712B49F6D5001FA361 /* ReferenceScreenshot.png */,
+				B5420E732B49FC10001FA361 /* ErrorTestScreenshot.png */,
+				B5420E752B49FC25001FA361 /* UnitTestCase93%.png */,
 				B5A137AD2B4996DE00C66DE5 /* MainApp */,
 				B5A137BE2B4996E100C66DE5 /* MainAppTests */,
 				B5A137C82B4996E100C66DE5 /* MainAppUITests */,
@@ -255,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5420E722B49F6D5001FA361 /* ReferenceScreenshot.png in Resources */,
+				B5420E762B49FC25001FA361 /* UnitTestCase93%.png in Resources */,
 				B5A137B62B4996E000C66DE5 /* Preview Assets.xcassets in Resources */,
+				B5420E742B49FC11001FA361 /* ErrorTestScreenshot.png in Resources */,
 				B5A137B32B4996E000C66DE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

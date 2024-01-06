@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5420E612B49EC3C001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E602B49EC3C001FA361 /* FindMyIPAjitS */; };
+		B5420E642B49EC67001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E632B49EC67001FA361 /* FindMyIPAjitS */; };
+		B5420E672B49ECDF001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E662B49ECDF001FA361 /* FindMyIPAjitS */; };
+		B5420E6D2B49F5C6001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E6C2B49F5C6001FA361 /* FindMyIPAjitS */; };
+		B5420E702B49F673001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E6F2B49F673001FA361 /* FindMyIPAjitS */; };
+		B5420E722B49F6D5001FA361 /* ReferenceScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = B5420E712B49F6D5001FA361 /* ReferenceScreenshot.png */; };
 		B5A137AF2B4996DE00C66DE5 /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A137AE2B4996DE00C66DE5 /* MainAppApp.swift */; };
 		B5A137B12B4996DE00C66DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A137B02B4996DE00C66DE5 /* ContentView.swift */; };
 		B5A137B32B4996E000C66DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A137B22B4996E000C66DE5 /* Assets.xcassets */; };
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5420E712B49F6D5001FA361 /* ReferenceScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReferenceScreenshot.png; sourceTree = "<group>"; };
 		B5A137AB2B4996DE00C66DE5 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A137AE2B4996DE00C66DE5 /* MainAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppApp.swift; sourceTree = "<group>"; };
 		B5A137B02B4996DE00C66DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5420E6D2B49F5C6001FA361 /* FindMyIPAjitS in Frameworks */,
+				B5420E642B49EC67001FA361 /* FindMyIPAjitS in Frameworks */,
+				B5420E612B49EC3C001FA361 /* FindMyIPAjitS in Frameworks */,
+				B5420E672B49ECDF001FA361 /* FindMyIPAjitS in Frameworks */,
+				B5420E702B49F673001FA361 /* FindMyIPAjitS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +86,7 @@
 		B5A137A22B4996DE00C66DE5 = {
 			isa = PBXGroup;
 			children = (
+				B5420E712B49F6D5001FA361 /* ReferenceScreenshot.png */,
 				B5A137AD2B4996DE00C66DE5 /* MainApp */,
 				B5A137BE2B4996E100C66DE5 /* MainAppTests */,
 				B5A137C82B4996E100C66DE5 /* MainAppUITests */,
@@ -143,6 +156,13 @@
 			dependencies = (
 			);
 			name = MainApp;
+			packageProductDependencies = (
+				B5420E602B49EC3C001FA361 /* FindMyIPAjitS */,
+				B5420E632B49EC67001FA361 /* FindMyIPAjitS */,
+				B5420E662B49ECDF001FA361 /* FindMyIPAjitS */,
+				B5420E6C2B49F5C6001FA361 /* FindMyIPAjitS */,
+				B5420E6F2B49F673001FA361 /* FindMyIPAjitS */,
+			);
 			productName = MainApp;
 			productReference = B5A137AB2B4996DE00C66DE5 /* MainApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +235,9 @@
 				Base,
 			);
 			mainGroup = B5A137A22B4996DE00C66DE5;
+			packageReferences = (
+				B5420E6E2B49F673001FA361 /* XCRemoteSwiftPackageReference "FindMyIPAjitS" */,
+			);
 			productRefGroup = B5A137AC2B4996DE00C66DE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5420E722B49F6D5001FA361 /* ReferenceScreenshot.png in Resources */,
 				B5A137B62B4996E000C66DE5 /* Preview Assets.xcassets in Resources */,
 				B5A137B32B4996E000C66DE5 /* Assets.xcassets in Resources */,
 			);
@@ -428,8 +452,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,8 +480,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +610,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5420E6E2B49F673001FA361 /* XCRemoteSwiftPackageReference "FindMyIPAjitS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProAjit/FindMyIPAjitS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5420E602B49EC3C001FA361 /* FindMyIPAjitS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FindMyIPAjitS;
+		};
+		B5420E632B49EC67001FA361 /* FindMyIPAjitS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FindMyIPAjitS;
+		};
+		B5420E662B49ECDF001FA361 /* FindMyIPAjitS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FindMyIPAjitS;
+		};
+		B5420E6C2B49F5C6001FA361 /* FindMyIPAjitS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FindMyIPAjitS;
+		};
+		B5420E6F2B49F673001FA361 /* FindMyIPAjitS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5420E6E2B49F673001FA361 /* XCRemoteSwiftPackageReference "FindMyIPAjitS" */;
+			productName = FindMyIPAjitS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5A137A32B4996DE00C66DE5 /* Project object */;
 }

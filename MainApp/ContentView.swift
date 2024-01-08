@@ -27,6 +27,9 @@ struct ContentView: View {
                             Text("My Network \(findMyIPData.network)")
                                 .font(.footnote)
                             Spacer()
+                            Text("My Country Code \(findMyIPData.countryCode)")
+                                .font(.footnote)
+                            Spacer()
                         }
                         Spacer()
                     } else {

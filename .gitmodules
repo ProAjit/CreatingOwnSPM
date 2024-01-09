@@ -1,0 +1,3 @@
+[submodule "Package/Package/FindMyIPAjitS"]
+	path = Package/Package/FindMyIPAjitS
+	url = https://github.com/ProAjit/MainApp

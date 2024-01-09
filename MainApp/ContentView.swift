@@ -15,14 +15,15 @@ struct ContentView: View {
     public var body: some View {
         NavigationView {
             VStack {
-                Spacer()
                 if viewModel.isLoading {
                     ProgressView("Fetching Data...")
                 } else {
                     if let findMyIPData = viewModel.findMyIPData {
+                        Spacer()
                         Group {
                             Text("My IP \(findMyIPData.ip)")
                                 .font(.title3)
+                                .bold()
                             Spacer()
                             Text("My Network \(findMyIPData.network)")
                                 .font(.footnote)
@@ -31,13 +32,11 @@ struct ContentView: View {
                                 .font(.footnote)
                             Spacer()
                         }
-                        Spacer()
                     } else {
                         Text("Failed to fetch data.")
                             .foregroundColor(.red)
                     }
                 }
-                Spacer()
             }
             .navigationTitle("Find My IP")
             .alert(isPresented: $viewModel.showAlert) {

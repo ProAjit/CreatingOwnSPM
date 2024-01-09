@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B50AA0322B4BA64C009F2F5E /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B50AA0312B4BA64C009F2F5E /* FindMyIPAjitS */; };
 		B50AA0342B4BA6F2009F2F5E /* WithLocalDependancy.png in Resources */ = {isa = PBXBuildFile; fileRef = B50AA0332B4BA6F2009F2F5E /* WithLocalDependancy.png */; };
-		B50AA0372B4C020D009F2F5E /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B50AA0362B4C020D009F2F5E /* FindMyIPAjitS */; };
 		B5420E612B49EC3C001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E602B49EC3C001FA361 /* FindMyIPAjitS */; };
 		B5420E642B49EC67001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E632B49EC67001FA361 /* FindMyIPAjitS */; };
 		B5420E672B49ECDF001FA361 /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B5420E662B49ECDF001FA361 /* FindMyIPAjitS */; };
@@ -17,6 +16,7 @@
 		B5420E722B49F6D5001FA361 /* ReferenceScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = B5420E712B49F6D5001FA361 /* ReferenceScreenshot.png */; };
 		B5420E742B49FC11001FA361 /* ErrorTestScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = B5420E732B49FC10001FA361 /* ErrorTestScreenshot.png */; };
 		B5420E762B49FC25001FA361 /* UnitTestCase93%.png in Resources */ = {isa = PBXBuildFile; fileRef = B5420E752B49FC25001FA361 /* UnitTestCase93%.png */; };
+		B562BA572B4D574F00E1641B /* FindMyIPAjitS in Frameworks */ = {isa = PBXBuildFile; productRef = B562BA562B4D574F00E1641B /* FindMyIPAjitS */; };
 		B5A137AF2B4996DE00C66DE5 /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A137AE2B4996DE00C66DE5 /* MainAppApp.swift */; };
 		B5A137B12B4996DE00C66DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A137B02B4996DE00C66DE5 /* ContentView.swift */; };
 		B5A137B32B4996E000C66DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A137B22B4996E000C66DE5 /* Assets.xcassets */; };
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50AA0372B4C020D009F2F5E /* FindMyIPAjitS in Frameworks */,
+				B562BA572B4D574F00E1641B /* FindMyIPAjitS in Frameworks */,
 				B5420E6D2B49F5C6001FA361 /* FindMyIPAjitS in Frameworks */,
 				B5420E642B49EC67001FA361 /* FindMyIPAjitS in Frameworks */,
 				B5420E612B49EC3C001FA361 /* FindMyIPAjitS in Frameworks */,
@@ -173,7 +173,7 @@
 				B5420E662B49ECDF001FA361 /* FindMyIPAjitS */,
 				B5420E6C2B49F5C6001FA361 /* FindMyIPAjitS */,
 				B50AA0312B4BA64C009F2F5E /* FindMyIPAjitS */,
-				B50AA0362B4C020D009F2F5E /* FindMyIPAjitS */,
+				B562BA562B4D574F00E1641B /* FindMyIPAjitS */,
 			);
 			productName = MainApp;
 			productReference = B5A137AB2B4996DE00C66DE5 /* MainApp.app */;
@@ -248,7 +248,7 @@
 			);
 			mainGroup = B5A137A22B4996DE00C66DE5;
 			packageReferences = (
-				B50AA0352B4C020D009F2F5E /* XCRemoteSwiftPackageReference "FindMyIPAjitS" */,
+				B562BA552B4D574F00E1641B /* XCLocalSwiftPackageReference "Package/FindMyIPAjitS" */,
 			);
 			productRefGroup = B5A137AC2B4996DE00C66DE5 /* Products */;
 			projectDirPath = "";
@@ -626,25 +626,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		B50AA0352B4C020D009F2F5E /* XCRemoteSwiftPackageReference "FindMyIPAjitS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ProAjit/FindMyIPAjitS";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		B562BA552B4D574F00E1641B /* XCLocalSwiftPackageReference "Package/FindMyIPAjitS" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Package/FindMyIPAjitS;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		B50AA0312B4BA64C009F2F5E /* FindMyIPAjitS */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = FindMyIPAjitS;
-		};
-		B50AA0362B4C020D009F2F5E /* FindMyIPAjitS */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B50AA0352B4C020D009F2F5E /* XCRemoteSwiftPackageReference "FindMyIPAjitS" */;
 			productName = FindMyIPAjitS;
 		};
 		B5420E602B49EC3C001FA361 /* FindMyIPAjitS */ = {
@@ -660,6 +651,10 @@
 			productName = FindMyIPAjitS;
 		};
 		B5420E6C2B49F5C6001FA361 /* FindMyIPAjitS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FindMyIPAjitS;
+		};
+		B562BA562B4D574F00E1641B /* FindMyIPAjitS */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FindMyIPAjitS;
 		};

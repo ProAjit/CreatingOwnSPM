@@ -10,8 +10,8 @@ import FindMyIPAjitS
 
 struct ContentView: View {
     
-    @StateObject public var viewModel: FindMyIPViewModel = FindMyIPViewModel()
-    
+    @ObservedObject private var viewModel = FindMyIPViewModel()
+
     public var body: some View {
         NavigationView {
             VStack {
@@ -22,7 +22,7 @@ struct ContentView: View {
                     if let findMyIPData = viewModel.findMyIPData {
                         Group {
                             Text("My IP \(findMyIPData.ip)")
-                                .font(.footnote)
+                                .font(.title3)
                             Spacer()
                             Text("My Network \(findMyIPData.network)")
                                 .font(.footnote)
